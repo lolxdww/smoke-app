@@ -4,7 +4,7 @@ import { Client, Databases, ID, Query } from "appwrite";
 import Link from 'next/link';
 const client = new Client();
 
-const Page = ({params}) => {
+function Page ({params}) {
     const slug = params.slug
     const [Api, setApi] = useState({})
 
