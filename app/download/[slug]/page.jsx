@@ -4,12 +4,11 @@ import { Client, Databases, ID, Query } from "appwrite";
 import Link from 'next/link';
 const client = new Client();
 
-function Page ({params}) {
+const Download = ({params}) => {
+    
     const slug = params.slug
     const [Api, setApi] = useState({})
-
     useEffect(() => {
-
         client
             .setEndpoint('https://cloud.appwrite.io/v1')
             .setProject('652146b8366d7812eb4d');
@@ -94,4 +93,4 @@ function Page ({params}) {
   )
 }
 
-export default Page;
+export default Download;
