@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 const client = new Client();
 
-const page = ({params}) => {
+const Page = ({params}) => {
     const slug = params.slug
     const [Api, setApi] = useState({})
     useEffect(() => {
@@ -94,4 +94,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page
