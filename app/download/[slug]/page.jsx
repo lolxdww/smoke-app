@@ -1,13 +1,13 @@
 "use client"
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { Client, Databases, ID, Query } from "appwrite";
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 const client = new Client();
 
 const Page = ({params}) => {
     const slug = params.slug
     const [Api, setApi] = useState({})
+
     useEffect(() => {
 
         client
@@ -46,7 +46,7 @@ const Page = ({params}) => {
         <h1 className="text-3xl font-semibold mb-4">Your API is {Api?.API}</h1>
         <section class="py-16 bg-white">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-8">Features That You'll Love</h2>
+            <h2 class="text-3xl font-semibold mb-8">Features That You&apos;ll Love</h2>
             <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-x-4">
                 <div class="md:w-1/3 p-6 bg-gray-200 rounded-lg shadow-md">
                     <h3 class="text-xl font-semibold mb-2">Feature 1</h3>
@@ -94,4 +94,4 @@ const Page = ({params}) => {
   )
 }
 
-export default Page
+export default Page;
