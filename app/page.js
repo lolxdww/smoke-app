@@ -32,7 +32,7 @@ export default function Home() {
 
                 <div className="mt-8 ">
                     <p className='text-white'>
-                    Are you ready to take your Discord raider community to the next level? Look no further than the Discord Raider Promo Hub – your all-in-one solution for promoting and growing your raider community.
+                    Are you ready to take your Discord raider community to the next level? Look no further than the Discord Raider Promo Hub &ndash; your all&ndash;in&ndash;one solution for promoting and growing your raider community.
                     </p>
                 </div>
             </div>
