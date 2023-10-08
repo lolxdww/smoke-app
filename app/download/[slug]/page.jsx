@@ -24,7 +24,6 @@ const Download = ({ params }) => {
         );
 
         promise.then(function (response) {
-            console.log(response[0]);
             setApi(response.documents[0])
         }, function (error) {
             console.log(error);

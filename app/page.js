@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-400 focus-within:ring-opacity-40">
                 <form className="flex flex-col lg:flex-row">
-                    <input type="text" placeholder="Enter your API Key" value={inputValue} onChange={handleInputChange} className="flex-1 h-10 px-4 py-2 m-1 text-gray-300 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
+                    <input type="text" required placeholder="Enter your API Key" value={inputValue} onChange={handleInputChange} className="flex-1 h-10 px-4 py-2 m-1 text-gray-300 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
 
                     <Link href={linkUrl} className="h-10 px-4 py-2 m-1 text-center transition-colors duration-300 transform bg text-black rounded-md  focus:outline-none ">
                         Download
@@ -56,16 +56,14 @@ export default function Home() {
 
             <div className="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
                 <div className="w-full max-w-md bg-white rounded-lg dark:bg-gray-800 pattern">
-                    {/* <div className="text-center"> */}
-                        {/* <h2 className="text-2xl font-semibold text-gray-300 dark:text-white fo">Sign In</h2> */}
-
+            
                         <Image
                         className='object-cover img-hero w-auto h-48 mx-auto rounded-md lg:max-w-2xl rotate-6 '
                         src={'/image-hero-1.jpg'}
                         width={1000}
                         height={1000}
+                        alt='Hero Image'
                         />
-                    {/* </div> */}
                 </div>
             </div>
 
@@ -124,8 +122,8 @@ export default function Home() {
     x2="50"
     y2="20"
     stroke="#fff"
-    stroke-width="5"
-    stroke-linecap="round"
+    strokeWidth="5"
+    strokeLinecap="round"
   />
   <line
     x1="50"
@@ -133,8 +131,8 @@ export default function Home() {
     x2="80"
     y2="50"
     stroke="#fff"
-    stroke-width="5"
-    stroke-linecap="round"
+    strokeWidth="5"
+    strokeLinecap="round"
   />
 </svg>
                     </span>
