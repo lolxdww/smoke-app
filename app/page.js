@@ -80,16 +80,16 @@ export default function Home() {
             <source className='rounded-md' src='https://cdn.discordapp.com/attachments/1146863439692713984/1154497266380455986/lol.mp4?ex=65191d9d&is=6517cc1d&hm=2b111f61d9bd8cf588c72d2cce282092247f6156c8f3c42782c67c1af88124fe&' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto">
+          <section className="bg-white dark:bg-gray-900">
+    <div className="container px-6 py-10 mx-auto">
   
 
-        <div class="mt-8 flex justify-center items-center xl:mt-12 lg:flex lg:items-center">
-            <div class="flex w-full flex-col gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
-                <div class="space-y-3">
-                    <span class="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+        <div className="mt-8 flex justify-center items-center xl:mt-12 lg:flex lg:items-center">
+            <div className="flex w-full flex-col gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
+                <div className="space-y-3">
+                    <span className="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
                     <svg
-                    class="w-6 h-6" 
+                    className="w-6 h-6" 
         xmlns="http://www.w3.org/2000/svg"
         width="100"
         height="100"
@@ -102,16 +102,16 @@ export default function Home() {
       </svg>
                     </span>
 
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">New Components</h1>
+                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">New Components</h1>
 
-                    <p class="text-gray-500 dark:text-gray-300">
+                    <p className="text-gray-500 dark:text-gray-300">
                     Not like other tools, the Smoke Tool does not have a grabber or anything else. Your data such as tokens etc. are securely protected. But be sure that you only buy our tool on our official Discord server!                    </p>
                 </div>
 
-                <div class="space-y-3">
-                    <span class="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                <div className="space-y-3">
+                    <span className="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
                     <svg
-                    class="w-6 h-6" 
+                    className="w-6 h-6" 
   xmlns="http://www.w3.org/2000/svg"
   width="100"
   height="100"
@@ -139,21 +139,21 @@ export default function Home() {
 </svg>
                     </span>
 
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
 
-                    <p class="text-gray-500 dark:text-gray-300">
+                    <p className="text-gray-500 dark:text-gray-300">
                     Once you bought the Smoke Tool and you have it forever. The tool will be delivered to you directly after purchase.                    </p>
                 </div>
 
 
-                <div class="space-y-3">
-                    <span class="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                <div className="space-y-3">
+                    <span className="inline-block p-3 bg bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
 <h3 className='fg'>PAYMENTS</h3>
                     </span>
 
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">PAYMENTS & clean designs</h1>
+                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">PAYMENTS & clean designs</h1>
 
-                    <p class="text-gray-500 dark:text-gray-300">
+                    <p className="text-gray-500 dark:text-gray-300">
                     PayPal, Crypto, Paysafecards (only Germany) + more                     </p>
                 </div>
             </div>
@@ -161,8 +161,8 @@ export default function Home() {
         
         </div>
         <div className="flex justify-center items-center flex-col gap-2 w-max mt-2 mx-auto">
-        <button class="text-white bg border-0 py-2 px-8 focus:outline-none rounded text-lg">Buy now</button>
-        <a  href='#video' class="text-white bg border-0 py-2 px-8 focus:outline-none  rounded text-lg">Preview </a>
+        <button className="text-white bg border-0 py-2 px-8 focus:outline-none rounded text-lg">Buy now</button>
+        <a  href='#video' className="text-white bg border-0 py-2 px-8 focus:outline-none  rounded text-lg">Preview </a>
 
         </div>
     </div>
