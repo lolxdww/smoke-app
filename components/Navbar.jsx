@@ -28,20 +28,11 @@ export default function Home() {
                 </nav>
             </div>
         </div>
-        {/* <!-- profile --> */}
-        <div className="flex items-center mt-2 -mx-2 sm:mt-0">
-                <a href="#" className="px-3 py-1 text-sm font-semibold text-white transition-colors duration-300 transform border-2 rounded-md hover:bg-gray-700">Sign In</a>
-                <a href="#" className="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-300 transform bg-black rounded-md hover:bg-gray-800">Sign Up</a>
-            </div>
+
+
         {/* <!-- navigation mobile menu button --> */}
         <div className="flex items-center space-x-4 px-2 md:hidden md:px-0 lg:px-0">
         {/* <!-- profile --> */}
-            <div class="flex items-center space-x-4 cursor-pointer">
-            <div className="flex items-center mt-2 -mx-2 sm:mt-0">
-                <a href="#" className="px-3 py-1 text-sm font-semibold text-white transition-colors duration-300 transform border-2 rounded-md hover:bg-gray-700">Sign In</a>
-                <a href="#" className="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-300 transform bg-black rounded-md hover:bg-gray-800">Sign Up</a>
-            </div>
-            </div>
             <div className="nav-menu-btn cursor-pointer" onClick={toggleNavMenu}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor" strokeWidth="2">
@@ -55,9 +46,6 @@ export default function Home() {
     <div className={`nav-menu ${isNavMenuVisible ? "" : "hidden"}`}>
         <nav className="space-y-4 flex justify-center items-center flex-col md:hidden">
         <Link href="/" className="active font-bold">Home</Link>
-        <Link href="/Ary" className="hover:text-gray-600 font-semibold">ARY</Link>
-        <Link href="/Geo" className="hover:text-gray-600 font-semibold">GEO</Link>
-        <Link href="/Hum" className="hover:text-gray-600 font-semibold">HUM</Link>
         </nav>
     </div>
 </div>

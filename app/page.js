@@ -41,9 +41,10 @@ export default function Home() {
                 <form className="flex flex-col lg:flex-row">
                     <input type="text" placeholder="Enter your API Key" value={inputValue} onChange={handleInputChange} className="flex-1 h-10 px-4 py-2 m-1 text-gray-300 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
 
-                    <Link href={linkUrl} className="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
+                    <Link href={linkUrl} className="h-10 px-4 py-2 m-1 text-center text-white transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
                         Download
                     </Link>
+                    
                 </form>
             </div>
         </div>
@@ -71,11 +72,11 @@ export default function Home() {
         </div>
     </div>
 </header>
-<section class="bg-white ">
-    <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl text-center mb- font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br/> awesome <span class="text-blue-500">Discord Raider</span></h1>
+<section className="bg-white ">
+    <div className="container px-6 py-10 mx-auto">
+        <h1 className="text-2xl text-center mb- font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br/> awesome <span className="text-blue-500">Discord Raider</span></h1>
 
-        <video muted className='rounded-md w-full h-[450px]'>
+        <video muted autoPlay className='rounded-md w-full h-[450px]'>
             <source className='rounded-md' src='https://cdn.discordapp.com/attachments/1146863439692713984/1154497266380455986/lol.mp4?ex=65191d9d&is=6517cc1d&hm=2b111f61d9bd8cf588c72d2cce282092247f6156c8f3c42782c67c1af88124fe&' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
