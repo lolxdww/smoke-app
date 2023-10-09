@@ -159,7 +159,7 @@ export default function Home() {
         
         </div>
         <div className="flex justify-center items-center flex-col gap-2 w-max mt-2 mx-auto">
-        <button className="text-white bg border-0 py-2 px-8 focus:outline-none rounded text-lg">Buy now</button>
+        <a href="https://discord.com/invite/cheapy" target="_blank" rel="noopener noreferrer"><button className="text-white bg border-0 py-2 px-8 focus:outline-none rounded text-lg">Buy now</button></a>
         <a  href='#video' className="text-white bg border-0 py-2 px-8 focus:outline-none  rounded text-lg">Preview </a>
 
         </div>

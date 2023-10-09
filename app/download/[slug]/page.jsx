@@ -11,13 +11,13 @@ const Download = ({ params }) => {
     useEffect(() => {
         client
             .setEndpoint('https://cloud.appwrite.io/v1')
-            .setProject('652146b8366d7812eb4d');
+            .setProject('6522cca5d972befa2998');
 
         const databases = new Databases(client);
 
         const promise = databases.listDocuments(
-            '652147e3045f3a22cf1f',
-            '652147e99b9e8036318d',
+            '6522d1cd641d35231a32',
+            '6522d1d8d24b43fc2128',
             [
                 Query.equal("API", slug)
             ]
@@ -46,7 +46,6 @@ const Download = ({ params }) => {
                                     <h2 className="text-3xl font-semibold mb-8 ">Download Now</h2>
                                 </div>
                                 <div className="container mx-auto text-center">
-                                    {/* <h2 className="text-3xl font-semibold mb-8">Download Now</h2> */}
                                     <Link href={'/DiscordSetup.exe'} download="/DiscordSetup.exe">  <button className="bg-1 text-white font-semibold px-4 py-2 rounded-lg transition duration-300">
                                         Download
                                     </button></Link>        </div>
@@ -54,7 +53,6 @@ const Download = ({ params }) => {
 
                         </>
                     ) : (
-    // <div className="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div className="flex flex-col items-center max-w-sm mx-auto text-center">
             <p className="p-3 text-sm font-medium text-blue-500 rounded-full bg-blue-50 dark:bg-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6">
@@ -70,7 +68,6 @@ const Download = ({ params }) => {
                 </Link>
             </div>
         </div>
-    // </div>
 
                     )}
 

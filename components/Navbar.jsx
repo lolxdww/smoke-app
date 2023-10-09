@@ -45,7 +45,7 @@ export default function Home() {
     <!-- navigation mobile menu --> */}
     <div className={`nav-menu ${isNavMenuVisible ? "" : "hidden"}`}>
         <nav className="space-y-4 flex justify-center items-center flex-col md:hidden">
-        <Link href="/" className="active font-bold">Home</Link>
+        <Link href="/" className="active text-white font-bold">Home</Link>
         </nav>
     </div>
 </div>
